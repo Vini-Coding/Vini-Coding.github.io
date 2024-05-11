@@ -70338,7 +70338,7 @@ A.afG.prototype={
 $2(a,b){return A.ai(null,null,this.a.a*0.02)},
 $S:64}
 A.afH.prototype={
-$0(){var s=A.aiI("/assets/cv/cv.pdf")
+$0(){var s=A.aiI("portfolio_vinidev/assets/cv/cv.pdf")
 s.download="Vin\xedcius Soares da Silva Melo"
 s.click()},
 $S:0}
@@ -70378,7 +70378,7 @@ A.afN.prototype={
 $2(a,b){return A.ai(null,null,this.a.a*0.05)},
 $S:64}
 A.afO.prototype={
-$0(){var s=A.aiI("/assets/cv/cv.pdf")
+$0(){var s=A.aiI("portfolio_vinidev/assets/cv/cv.pdf")
 s.download="Vin\xedcius Soares da Silva Melo"
 s.click()},
 $S:0}
@@ -70417,7 +70417,7 @@ A.afU.prototype={
 $2(a,b){return A.ai(null,null,this.a.a*0.025)},
 $S:64}
 A.afV.prototype={
-$0(){var s=A.aiI("/assets/cv/cv.pdf")
+$0(){var s=A.aiI("portfolio_vinidev/assets/cv/cv.pdf")
 s.download="Vin\xedcius Soares da Silva Melo"
 s.click()},
 $S:0}
