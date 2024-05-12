@@ -20446,8 +20446,8 @@ _.d=a
 _.a=null
 _.b=b
 _.c=null},
-aiK(a,b,c,d,e,f,g,h,i,j){return new A.um(g,d,i,e,c,j,h,b,f,a,null)},
-um:function um(a,b,c,d,e,f,g,h,i,j,k){var _=this
+aiK(a,b,c,d,e,f,g,h,i,j,k){return new A.um(g,d,i,e,c,j,k,h,b,f,a,null)},
+um:function um(a,b,c,d,e,f,g,h,i,j,k,l){var _=this
 _.c=a
 _.d=b
 _.e=c
@@ -20458,7 +20458,8 @@ _.y=g
 _.z=h
 _.Q=i
 _.as=j
-_.a=k},
+_.at=k
+_.a=l},
 Ld:function Ld(a){this.a=null
 this.b=a
 this.c=null},
@@ -69399,9 +69400,9 @@ return new A.lI(new A.uo(q,r,p,s),new A.up(q,r,p,s),new A.un(q,r,p,s),B.F,s)}}
 A.um.prototype={
 S(){return new A.Ld(B.h)}}
 A.Ld.prototype={
-G(a){var s,r,q,p,o,n=this,m=null,l=a.K(t.w).f.a,k=n.a,j=k.r,i=l.b,h=l.a,g=k.x,f=i*0.005,e=h*0.01,d=$.T(),c=d.Q,b=k.c
+G(a){var s,r,q,p,o,n=this,m=null,l=a.K(t.w).f.a,k=n.a,j=k.r,i=l.b,h=l.a,g=k.y,f=i*k.x,e=h*0.01,d=$.T(),c=d.Q,b=k.c
 d=d.RG.b
-k=d==null?m:d.a54(k.y,1,B.aJ)
+k=d==null?m:d.a54(k.z,1,B.aJ)
 k=A.bg(b.toUpperCase(),3,m,m,k,m,m)
 b=i*0.01
 d=A.ai(m,b,m)
@@ -69410,13 +69411,13 @@ r=s.d
 q=s.e
 p=s.f
 o=$.T().RG.Q
-s=o==null?m:o.dh(B.cu,s.z,B.K)
+s=o==null?m:o.dh(B.cu,s.Q,B.K)
 o=t.p
-g=A.ch(m,A.cg(A.a([k,d,A.bN(A.a([A.bg(r+" - "+q+" - "+p+" read",m,m,m,s,m,m),A.ai(m,m,h*0.005),A.em("assets/images/logo/stackademic.png",B.m9,m,h*n.a.Q)],o),B.w,B.A,B.c9)],o),B.Z,B.a_,B.q),B.r,m,m,new A.cC(c,m,m,B.fx,m,m,B.aa),m,i*0.15,m,new A.ab(e,f,e,f),m,m,h*g)
+g=A.ch(m,A.cg(A.a([k,d,A.bN(A.a([A.bg(r+" - "+q+" - "+p+" read",m,m,m,s,m,m),A.ai(m,m,h*0.005),A.em("assets/images/logo/stackademic.png",B.m9,m,h*n.a.as)],o),B.w,B.A,B.c9)],o),B.Z,B.a_,B.q),B.r,m,m,new A.cC(c,m,m,B.fx,m,m,B.aa),m,i*0.15,m,new A.ab(e,f,e,f),m,m,h*g)
 f=n.a
-c=f.x
+c=f.y
 k=$.T().RG.b
-k=A.bg("Read article",m,m,m,k==null?m:k.hu(f.as,B.K),m,m)
+k=A.bg("Read article",m,m,m,k==null?m:k.hu(f.at,B.K),m,m)
 return A.en(!1,m,!0,A.ai(A.cg(A.a([g,A.ch(m,A.bN(A.a([k,A.dk(B.d6,B.F,i*0.02)],o),B.w,B.hY,B.q),B.r,m,m,new A.cC(B.y,m,m,B.fy,m,m,B.aa),m,i*0.05,m,new A.ab(e,b,e,b),m,m,h*c)],o),B.w,B.A,B.q),m,m),m,!0,m,m,m,m,m,m,m,m,m,j,m,m,m,m,m)}}
 A.un.prototype={
 S(){return new A.Le(B.h)},
@@ -69437,7 +69438,7 @@ q=A.bg("Check me on Medium ",n,n,n,$.T().RG.ax,n,n)
 p=t.p
 q=A.en(!1,n,!0,A.bN(A.a([q,A.dk(B.ho,B.y,m.a*0.01)],p),B.w,B.A,B.c9),n,!0,n,n,n,n,n,n,n,n,n,new A.a9v(this),n,n,n,n,n)
 o=this.a.c
-return A.bN(A.a([A.bJ(A.cg(A.a([B.au,l,k,r,q,B.au,A.aiK(14,10,new A.a9w(this),o.b,o.d,0.07,o.a,18,o.c,0.3),B.au],p),B.Z,B.A,B.q),1),A.bJ(new A.bQ(new A.ab(0,s*0.15,0,0),A.em("assets/images/dash/dash_articles.png",B.ma,s*0.55,n),n),1)],p),B.w,B.A,B.q)}}
+return A.bN(A.a([A.bJ(A.cg(A.a([B.au,l,k,r,q,B.au,A.aiK(14,10,new A.a9w(this),o.b,o.d,0.07,o.a,18,o.c,0.005,0.3),B.au],p),B.Z,B.A,B.q),1),A.bJ(new A.bQ(new A.ab(0,s*0.15,0,0),A.em("assets/images/dash/dash_articles.png",B.ma,s*0.55,n),n),1)],p),B.w,B.A,B.q)}}
 A.a9v.prototype={
 $0(){var s=this.a.a
 return s.kd(s.d)},
@@ -69472,7 +69473,7 @@ l=this.a.c
 k=n?16:18
 j=n?8:10
 n=n?10:14
-return A.cg(A.a([g,f,r,q,o,A.aiK(n,j,new A.a9y(this),l.b,l.d,m,l.a,k,l.c,0.99),A.ai(i,s*0.07,i),A.bJ(A.em("assets/images/dash/dash_articles.png",i,i,i),1)],p),B.Z,B.A,B.q)}}
+return A.cg(A.a([g,f,r,q,o,A.aiK(n,j,new A.a9y(this),l.b,l.d,m,l.a,k,l.c,0.003,0.99),A.ai(i,s*0.07,i),A.bJ(A.em("assets/images/dash/dash_articles.png",i,i,i),1)],p),B.Z,B.A,B.q)}}
 A.a9x.prototype={
 $0(){var s=this.a.a
 return s.kd(s.d)},
@@ -69502,7 +69503,7 @@ q=A.bg("Check me on Medium ",n,n,n,q==null?n:q.b1(14),n,n)
 p=t.p
 q=A.en(!1,n,!0,A.bN(A.a([q,A.dk(B.ho,B.y,m.a*0.01)],p),B.w,B.A,B.c9),n,!0,n,n,n,n,n,n,n,n,n,new A.a9z(this),n,n,n,n,n)
 o=this.a.c
-return A.bN(A.a([A.bJ(A.cg(A.a([B.au,l,k,r,q,B.au,A.aiK(14,10,new A.a9A(this),o.b,o.d,0.1,o.a,18,o.c,0.5),B.au],p),B.Z,B.A,B.q),1),A.bJ(new A.bQ(new A.ab(0,s*0.15,0,0),A.em("assets/images/dash/dash_articles.png",n,n,n),n),1)],p),B.w,B.A,B.q)}}
+return A.bN(A.a([A.bJ(A.cg(A.a([B.au,l,k,r,q,B.au,A.aiK(14,10,new A.a9A(this),o.b,o.d,0.1,o.a,18,o.c,0.005,0.5),B.au],p),B.Z,B.A,B.q),1),A.bJ(new A.bQ(new A.ab(0,s*0.15,0,0),A.em("assets/images/dash/dash_articles.png",n,n,n),n),1)],p),B.w,B.A,B.q)}}
 A.a9z.prototype={
 $0(){var s=this.a.a
 return s.kd(s.d)},
@@ -69810,7 +69811,7 @@ A.w6.prototype={
 S(){return new A.Nc(B.h)}}
 A.Nc.prototype={
 G(a){var s,r,q,p,o,n,m=null,l=A.bJ(A.em("assets/images/dash/dash_home.png",m,m,m),1),k=$.T().RG.a
-k=k==null?m:k.b1(30)
+k=k==null?m:k.b1(26)
 s=$.T()
 r=s.RG.a
 q=t.R
@@ -70247,7 +70248,7 @@ k=k.dh(B.y,j,B.K)}r=A.eL(h,20,B.al,h,h,!0,h,A.a7(A.a([p,B.K8,o,B.K6,n,B.f7,m,B.K
 g*=0.02
 k=A.ai(h,g,h)
 l=$.T().RG.Q
-p=A.bg("For me, 3 keys are needed for an efficient development. They are:\n1. How well you solve the user\u2019s problem.\n2. How clean and maintanable is your code.\n3. How suitable is your app\u2019s design.",10,h,h,l==null?h:l.b1(i.a.f),B.aI,h)
+p=A.bg("For me, 3 keys are needed for an efficient development. They are: \n1. How well you solve the user\u2019s problem. \n2. How clean and maintanable is your code. \n3. How suitable is your app\u2019s design.",10,h,h,l==null?h:l.b1(i.a.f),B.aI,h)
 g=A.ai(h,g,h)
 o=$.T().RG.Q
 o=o==null?h:o.b1(i.a.f)
