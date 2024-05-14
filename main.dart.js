@@ -69473,7 +69473,7 @@ l=this.a.c
 k=n?16:18
 j=n?8:10
 n=n?10:14
-return A.cg(A.a([g,f,r,q,o,A.aiK(n,j,new A.a9y(this),l.b,l.d,m,l.a,k,l.c,0.003,0.99),A.ai(i,s*0.07,i),A.bJ(A.em("assets/images/dash/dash_articles.png",i,i,i),1)],p),B.Z,B.A,B.q)}}
+return A.cg(A.a([g,f,r,q,o,A.aiK(n,j,new A.a9y(this),l.b,l.d,m,l.a,k,l.c,0.0015,0.99),A.ai(i,s*0.07,i),A.bJ(A.em("assets/images/dash/dash_articles.png",i,i,i),1)],p),B.Z,B.A,B.q)}}
 A.a9x.prototype={
 $0(){var s=this.a.a
 return s.kd(s.d)},
